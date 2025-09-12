@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header/>
-     <h1 className='bg-amber-300'> jkjjjjjj</h1>
+    
      {/* <ProductCard/> */}
       <AllRoutes />
     </>
