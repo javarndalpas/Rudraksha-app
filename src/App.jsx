@@ -3,8 +3,9 @@ import './App.css'
 import React from 'react'
 
 import { AllRoutes } from './routes/AllRoutes'
-import {Header} from './components/Layout/Header'
+import { Header } from './components/Layout/Header'
 import { ProductCard } from './components/Element/ProductCard'
+import { Footer } from './components/Layout/Footer'
 
 
 function App() {
@@ -12,10 +13,11 @@ function App() {
 
   return (
     <>
-      <Header/>
-    
-     {/* <ProductCard/> */}
+      <Header />
+
+      {/* <ProductCard/> */}
       <AllRoutes />
+      <Footer />
     </>
   )
 }
